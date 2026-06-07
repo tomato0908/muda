@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>hit</title>
+        <link rel="stylesheet" href="muda.css">
+        <script src="muda.js" defer></script>
+    </head>
+
+    <body>
+        <div id="container">
+
+            <div id="title">
+                <h1>活人計算ツール</h1>
+                <p>活人の計算ツールです．手伸ばし，振り向き，歩行，しゃがみの値を入れてください．</p>
+            </div>
+            
+            <div id="inputdata">
+                <br>
+                手のばし(cm)<input type="number" name="hand" id="hand" min="0">
+                <br>
+                <br>
+                振り向き(°)<input type="number" name="turn" id="turn" min="0" max="180">
+                <br>
+                <br>
+                歩行(歩)<input type="number" name="step" id="step" min="0">
+                <br>
+                <br>
+                しゃがみ(cm)<input type="number" name="down" id="down" min="0">
+                <br>
+                <div>
+                <br>
+                <label for="huey"><input type="radio" id="min" name="switching" value="削減" checked>削減動作</label>
+                <label for="huey"><input type="radio" id="plu" name="switching" value="追加">追加動作</label>
+                <br>
+                <button id="reg">登録</button>
+            </div>  
+        </div>
+
+        <div id="logdisplay">
+                <a>以下の動作が追加されています．</a>   
+                <ol id ="timedisplay"></ol>               
+        </div>
+
+        <div id="pronumbox">
+            生産台数<input type="number" name="pronum" id="pronum" min="0">台
+        </div>
+
+        <div>
+            <br>
+            <button id="finalcal">最終計算結果</button>
+            <div id="answer"></ぢ>
+        </div>
+    
+     </body>
+       
+</html>

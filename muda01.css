@@ -37,7 +37,7 @@ body {
 
 #title h1 {
     margin-top: 0;
-    color: #322fef; /* ティファニーブルー */
+    color: #047878; /* ティファニーブルー */
 }
 
 /* ------------------
@@ -65,7 +65,7 @@ input[type="number"] {
 
 input[type="number"]:focus {
     outline: none;
-    border-color: #322fef;
+    border-color: #047878;
 }
 
 /* ------------------
@@ -73,7 +73,7 @@ input[type="number"]:focus {
 ------------------ */
 
 button {
-    background: #322fef;
+    background: #047878;
     color: white;
     border: none;
     border-radius: 10px;
@@ -100,19 +100,19 @@ button:hover {
     box-shadow: 0 2px 12px rgba(0,0,0,0.06);
 }
 
-#timedisplay {
+#areadisplay {
     margin-top: 15px;
 }
 
-#timedisplay li {
+#areadisplay li {
     margin-bottom: 12px;
     padding: 6px;
-    border-left: 5px solid #322fef;
+    border-left: 5px solid #047878;
     background: #f9fbfb;
     border-radius: 8px;
 }
 
-#timedisplay li p {
+#areadisplay li p {
     margin-top: 8px;
     color: #666;
     font-size: 0.9rem;
@@ -149,7 +149,7 @@ div:has(#pronum) {
 }
 
 #answer p:last-child {
-    border: 2px solid #322fef;
+    border: 2px solid #047878;
     font-weight: bold;
     font-size: 1.1rem;
 }
@@ -186,7 +186,7 @@ div:has(#pronum) {
         margin-bottom: 10px;
     }
 
-    #timedisplay li {
+    #areadisplay li {
         font-size: 0.95rem;
     }
 }

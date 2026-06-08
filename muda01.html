@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>hit</title>
+        <link rel="stylesheet" href="muda01.css">
+        <script src="muda01.js" defer></script>
+    </head>
+
+    <body>
+        <div id="container">
+
+            <div id="title">
+                <h1>活スペース計算ツール</h1>
+                <p>活スペースの計算ツールです．縦横の値を入れてください．</p>
+            </div>
+            
+            <div id="inputdata">
+                <br>
+                縦(m)<input type="number" name="len" id="len" min="0">
+                <br>
+                <br>
+                横(m)<input type="number" name="wid" id="wid" min="0">
+                <br>
+                <br>
+                <label for="huey"><input type="radio" id="min" name="switching" value="削減" checked>削減</label>
+                <label for="huey"><input type="radio" id="plu" name="switching" value="追加">追加</label>
+                <br>
+                <button id="reg">登録</button>
+            </div>  
+        </div>
+
+        <div id="logdisplay">
+                <a>以下のスペースが変更されています．</a>   
+                <ol id ="areadisplay"></ol>               
+        </div>
+        <div>
+            <br>
+            <button id="finalcal">最終計算結果</button>
+            <div id="answer"></div>
+        </div>
+    
+     </body>
+       
+</html>
